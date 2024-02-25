@@ -1,0 +1,257 @@
+
+
+@font-face{
+    font-family: 'FakeReceipt';
+    src: url(FakeReceipt.ttf);
+
+    
+}
+
+
+html {
+    font-family: 'FakeReceipt';
+    font-weight: lighter;
+
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    color: black;
+    text-transform: uppercase;
+
+    background: url(background.jpg) no-repeat fixed; 
+
+    background-position-x: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@media (max-width:949px){
+    body{
+        position: absolute;
+        max-width: 99vw;
+        margin-top: 20px;
+        margin-left: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+    }
+
+    .allContent *{
+        pointer-events: none;
+    }
+
+    .allContent{
+        width: 100vw;
+        background-color: lightgray;
+        border-radius: 30px;
+        overflow-x: hidden;
+    }
+    
+    a{
+        text-decoration: none;
+    }
+    
+    .top img{
+        width: 250%;
+    }
+    
+    .top {
+        width: 100%;
+    }
+    
+    .bar{
+        display: none;
+    }
+
+    .bar2{
+        max-width: 75%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bar2 img{
+        height: 50px;
+    }
+    
+    .toptext{
+        margin: 20px;
+        flex-direction: column;
+        display: flex;
+        max-height: 51.6%;
+        float: left;
+        margin-right: 10%;
+    }
+    
+    .plane{
+        max-width: 70%;
+        margin: auto;
+        width: 100%;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .plane h2{
+        font-size: 20px;
+    }
+    
+    .plane img{
+        width: 70%;
+        height: auto;
+    }
+    
+    .plane a{
+        text-decoration: underline;
+        color: black;
+    }
+    
+    .plane a:hover{
+        color: rgb(68, 68, 68);
+    }
+    
+    .right{
+        display: flex;
+        flex-direction: column;
+        height: 91.1%;
+        padding-left: 10%;
+    
+        border-color: rgb(151, 151, 151);
+        border-style: dashed;
+        border-bottom: none;
+        border-right: none;
+        border-left: none;
+    }
+    
+    .qr{
+        display: grid;
+        align-items: center;
+        margin-left: 25%;
+        margin-bottom: 20px;
+    }
+    
+    .right img{
+        width: 50%;
+    }
+}
+
+@media (min-width:950px){
+    .allContent{
+        height: 720px;
+        max-width: 1280px;
+        margin: auto;
+        margin-top: 40px;
+        display: flex;
+        background-color: lightgray;
+        border-radius: 35px;
+        box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.4);
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+
+    .top img{
+        width: 100%;
+    }
+
+    .top {
+        height: 63px
+    }
+
+    .bar{
+        display: flex;
+        width: 8%;
+        height: 70%;
+        align-content: center;
+        float: left;
+    }
+    .bar img{
+        width: 100%;
+    }
+
+    .toptext{
+        margin: 20px;
+        flex-direction: column;
+        display: flex;
+        max-width: 51.6%;
+        float: left;
+        margin-right: 10%;
+    }
+
+    .plane{
+        max-height: 30%;
+        margin: 20px;
+        flex-direction: column;
+        display: flex;
+        width: 28%;
+        float: left;
+
+        align-items: center;
+        text-align: center;
+    }
+
+    .plane h2{
+        font-size: 20px;
+    }
+
+    .plane img{
+        height: 20%;
+        width: auto;
+    }
+
+    .plane a{
+        text-decoration: underline;
+        color: black;
+    }
+
+    .plane a:hover{
+        color: rgb(68, 68, 68);
+    }
+
+    .right{
+        display: flex;
+        max-width: 25%;
+        flex-direction: column;
+        height: 91.1%;
+        padding-left: 20px;
+
+        border-color: rgb(151, 151, 151);
+        border-style: dashed;
+        border-bottom: none;
+        border-right: none;
+        border-top: none;
+    }
+
+    .qr{
+        width: 100%;
+        display: grid;
+        align-items: center;
+        margin-left: 25%;
+    }
+
+    .right img{
+        width: 50%;
+    }
+
+    .bar2 {
+        display: none;
+    }
+
+    .highlight {
+        position: absolute;
+        height: 400px;
+        width: 400px;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.13);
+        filter: brightness(70%) blur(20px);
+        color: #333;
+        font-weight: bold;
+        left: -20%;
+        top: -13%;
+      }
+}
