@@ -27,6 +27,15 @@ html {
     background-size: cover;
 }
 
+.toptext a{
+        text-decoration: underline;
+        color: black;
+    }
+    
+.toptext a:hover{
+        color: rgb(68, 68, 68);
+    }
+
 @media (max-width:949px){
     body{
         position: absolute;
