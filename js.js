@@ -1,6 +1,6 @@
 (function () {
       // --- CONFIG ---
-      const START_CENTS = 1000 * 100;
+      const START_CENTS = 2500 * 100;
       const START_ISO = '2025-10-18T14:00:00-04:00';
       const INTERVAL_SECONDS = 3;
       const startTime = new Date(START_ISO);
