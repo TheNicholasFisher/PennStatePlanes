@@ -27,9 +27,6 @@ html {
     background-size: cover;
 }
 
-#nowLink{
-    color: black;
-}
 
 #nowLink:hover{
     color: rgb(68, 68, 68);
@@ -44,6 +41,15 @@ html {
     }
 
 @media (max-width:949px){
+
+    #nowLink{
+        color: black;
+    }
+
+    .sentence{
+        color: black;
+    }
+
     body{
         position: absolute;
         max-width: 99vw;
@@ -150,12 +156,28 @@ html {
     }
 
     .sentence{
-        position: relative;
+        position: fixed;
         left: 20px;
+        bottom: 20px;
     }
 }
 
 @media (min-width:950px){
+
+    #nowLink{
+        color: black;
+    }
+
+    .sentence{
+        color: black;
+    }
+
+    .sentence{
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+    }
+
     .allContent{
         height: 720px;
         max-width: 1280px;
