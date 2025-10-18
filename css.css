@@ -28,6 +28,12 @@ html {
 }
 
 
+.sentence{
+    position: relative;
+    bottom: -20px;
+    left: 30px;
+}
+
 #nowLink:hover{
     color: rgb(68, 68, 68);
 }
@@ -155,11 +161,6 @@ html {
         width: 50%;
     }
 
-    .sentence{
-        position: fixed;
-        left: 20px;
-        bottom: 20px;
-    }
 }
 
 @media (min-width:950px){
@@ -172,11 +173,6 @@ html {
         color: black;
     }
 
-    .sentence{
-    position: fixed;
-    left: 20px;
-    bottom: 20px;
-    }
 
     .allContent{
         height: 720px;
