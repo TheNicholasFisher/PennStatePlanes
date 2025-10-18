@@ -30,7 +30,7 @@ html {
 
 .sentence{
     position: absolute;
-    bottom: 10px;
+    bottom: 8px;
     left: 30px;
 }
 
@@ -54,6 +54,10 @@ html {
 
     .sentence{
         color: black;
+    }
+
+    .sentence{
+        font-size: 10px;
     }
 
     body{
