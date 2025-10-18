@@ -29,8 +29,8 @@ html {
 
 
 .sentence{
-    position: relative;
-    bottom: -20px;
+    position: absolute;
+    bottom: 10px;
     left: 30px;
 }
 
@@ -62,7 +62,7 @@ html {
         margin-top: 20px;
         margin-left: 0px;
         padding: 0px;
-        overflow-x: hidden;
+
     }
 
     .allContent{
