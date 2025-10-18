@@ -27,6 +27,14 @@ html {
     background-size: cover;
 }
 
+#nowLink{
+    color: black;
+}
+
+#nowLink:hover{
+    color: rgb(68, 68, 68);
+}
+
 .toptext a{
         color: black;
     }
@@ -139,6 +147,11 @@ html {
     
     .right img{
         width: 50%;
+    }
+
+    .sentence{
+        position: relative;
+        left: 20px;
     }
 }
 
@@ -259,3 +272,4 @@ html {
         top: -13%;
       }
 }
+
