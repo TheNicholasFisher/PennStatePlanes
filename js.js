@@ -36,7 +36,7 @@
         const cents = getCurrentPrice();
         const priceStr = `$${formatCents(cents)}`;
         const subject = encodeURIComponent(`${priceStr} offer to buy Bendapudi.com and NeeliBendapudi.com`);
-        const mailto = `mailto:nicholasfisher004@gmail.com+bendapudi?subject=${subject}`;
+        const mailto = `mailto:nicholasfisher004+bendapudi@gmail.com?subject=${subject}`;
         window.location.href = mailto;
       });
     })();
