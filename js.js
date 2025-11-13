@@ -1,8 +1,8 @@
 (function () {
       // --- CONFIG ---
-      const START_CENTS = 2500 * 100;
+      const START_CENTS = 500 * 100;
       const START_ISO = '2025-10-18T14:00:00-04:00';
-      const INTERVAL_SECONDS = 3;
+      const INTERVAL_SECONDS = 4;
       const startTime = new Date(START_ISO);
       const priceEl = document.getElementById('price');
       const nowLink = document.getElementById('nowLink');
